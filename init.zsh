@@ -1,3 +1,5 @@
+(( ${+commands[port]} )) || return 1
+
 local popts=
 if [[ -e /usr/local/Cellar ]]; then
   # Enable trace mode if Homebrew is installed in /usr/local
