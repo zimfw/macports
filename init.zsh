@@ -15,7 +15,8 @@ alias portL='port installed requested'
 alias portn='port notes'
 alias porto='port outdated'
 alias ports='port search'
-alias portu="sudo port${popts} selfupdate && sudo port${popts} -u upgrade outdated"
+alias portu="sudo port${popts} selfupdate"
+alias portU="sudo port${popts} -u upgrade outdated"
 alias portv='port variants'
 alias portx="sudo port${popts} --follow-dependencies uninstall"
 unset popts
